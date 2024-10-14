@@ -44,7 +44,12 @@ function TheList() {
           <Edit editTask={editTask} task={obj} key={obj.id} />
         ) : (
           // Render ToDo component when not editing
-          <ToDo task={obj} deleteTodo={deleteTOdo} key={obj.id} editToDo={editToDo} />
+          <ToDo
+            task={obj}
+            deleteTodo={deleteTOdo}
+            key={obj.id}
+            editToDo={editToDo}
+          />
         )
       )}
     </div>
