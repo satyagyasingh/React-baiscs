@@ -16,7 +16,7 @@ function Edit({ editTask, task }) {
         value={value}
         type="text"
         className="outline-none bg-transparent border border-gray-500
-        p-4 w-[300px] text-white mb-8 rounded placeholder:text-gray-300"
+        p-5 w-[300px] text-white mb-8 rounded placeholder:text-gray-300"
         placeholder="Update the task"
         onChange={(e) => setValue(e.target.value)} // Update value on change
       />
